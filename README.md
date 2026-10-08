@@ -1,8 +1,8 @@
 ### Nama : Yahya Jailani
 ### NIM : 2509116085
 ### Kelas : C
-
-# Sistem Manajemen Bioskop
+    
+ # Sistem Manajemen Bioskop
 
 ## Deskripsi Program
 
@@ -222,8 +222,6 @@ Dengan inheritance, class `Admin` dan `Penonton` dapat menggunakan atribut dan m
 
 ---
 
-# Nilai Tambah
-
 ## 1. MVC (Model View Controller)
 
 Program menggunakan struktur **MVC** yang membagi program menjadi tiga bagian.
@@ -399,8 +397,22 @@ VIP
 Jika kapasitas studio adalah 100 orang:
 
 ```text
-Jumlah tiket : 101
+Jumlah tiket : 109
 ```
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/fbcafa59-0322-485e-9779-8b5ff164ec49" />
+<img width="345" height="300" alt="Screenshot 2026-10-08 210008" src="https://github.com/user-attachments/assets/1685d785-1924-48d4-a5e2-d7cd135a3e9f" />
 
 maka sistem akan menolak karena jumlah tiket melebihi kapasitas studio.
+
+# Nilai Tambah
+### <b>Penerapan Interface</b>
+Interface adalah sebuah struktur dalam Java yang digunakan sebagai aturan atau kontrak bagi class yang menggunakannya. Interface berisi method yang harus dibuat atau diimplementasikan oleh class tersebut.
+Interface biasanya digunakan untuk menerapkan abstraction, karena interface hanya menentukan apa yang harus dilakukan, sedangkan cara melakukan proses tersebut ditentukan oleh class yang mengimplementasikannya.
+</p>
+
+Pada program ini saya membuat interface bernama Pembayaran yang digunakan untuk mengatur proses pembayaran. Interface tersebut memiliki dua method, yaitu :
+hitungTotal() dan
+tampilkanPembayaran()
+
+<img width="350" height="300" alt="Screenshot 2026-10-08 203704" src="https://github.com/user-attachments/assets/28837722-0db7-41d4-981b-68e3a1186ff0" />
+</p>
+Berikut Interface yang saya terapkan pada class pembayaran
