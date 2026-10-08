@@ -1,0 +1,11 @@
+model\Pengguna.class
+model\Studio.class
+controller\BioskopController.class
+model\Tiket.class
+model\Film.class
+model\Penonton.class
+model\Pembayaran.class
+view\BioskopView.class
+main\Main.class
+model\Admin.class
+model\Transaksi.class
