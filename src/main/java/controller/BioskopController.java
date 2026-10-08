@@ -152,10 +152,6 @@ public class BioskopController {
         }
     }
 
-    // =====================================================
-    // LOGIN ADMIN
-    // =====================================================
-
     private void loginAdmin() {
 
         System.out.println(
@@ -183,11 +179,7 @@ public class BioskopController {
             );
         }
     }
-
-    // =====================================================
-    // LOGIN PENONTON
-    // =====================================================
-
+    
     private void loginPenonton() {
 
         if (daftarPenonton.isEmpty()) {
@@ -230,10 +222,6 @@ public class BioskopController {
                 "Email atau password salah."
         );
     }
-
-    // =====================================================
-    // DAFTAR PENONTON
-    // =====================================================
 
     private void daftarPenonton() {
 
@@ -284,10 +272,6 @@ public class BioskopController {
         );
     }
 
-    // =====================================================
-    // MENU ADMIN
-    // =====================================================
-
     private void menuAdmin() {
 
         boolean logout = false;
@@ -331,10 +315,6 @@ public class BioskopController {
             }
         }
     }
-
-    // =====================================================
-    // MENU PENONTON
-    // =====================================================
 
     private void menuPenonton(
             Penonton penonton) {
@@ -382,10 +362,6 @@ public class BioskopController {
             }
         }
     }
-
-    // =====================================================
-    // CRUD FILM
-    // =====================================================
 
     private void menuFilm() {
 
@@ -735,11 +711,7 @@ public class BioskopController {
             );
         }
     }
-
-    // =====================================================
-    // CRUD TIKET
-    // =====================================================
-
+    
     private void menuTiket() {
 
         boolean kembali = false;
@@ -1029,11 +1001,7 @@ public class BioskopController {
             );
         }
     }
-
-    // =====================================================
-    // PROFIL
-    // =====================================================
-
+    
     private void tampilProfil(
             Penonton penonton) {
 
@@ -1056,10 +1024,6 @@ public class BioskopController {
                 + penonton.getNoHP()
         );
     }
-
-    // =====================================================
-    // BELI TIKET
-    // =====================================================
 
     private void beliTiket(
             Penonton penonton) {
@@ -1130,11 +1094,7 @@ public class BioskopController {
                 "Pembelian tiket berhasil."
         );
     }
-
-    // =====================================================
-    // TRANSAKSI
-    // =====================================================
-
+    
     private void lihatTransaksi() {
 
         System.out.println(
